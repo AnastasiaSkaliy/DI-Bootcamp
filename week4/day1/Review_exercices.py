@@ -28,6 +28,8 @@
 #     'fav_food' : 'sushi'
 # }
 # print(my_data)
+# print(my_data.keys())
+# print(my_data.values())
 #6
 # alc_level = float(input('Please enter your blood alcohol level'))
 # if alc_level >0.5 :
@@ -40,4 +42,22 @@
 # if (user_gender.lower() =='male' and user_age >65) or (user_gender.lower() == 'female' and user_age >60):
 #     print('It\'s time to retire!')
 # else:
-#     print('It\'s not time to retire yet')  
+#     print('It\'s not time to retire yet') 
+#Loops
+#11
+# sum = 0 
+# while True :
+#     number = int(input('Enter a number:\n'))
+#     sum = sum + number #or sum += number 
+#     if number ==0:
+#         break 
+# print(sum)
+
+#Functions 
+#14
+# def avg3(num1: int, num2: int, num3: int):
+#     print((num1+num2+num3)/3 )
+# avg3(4,6,20) 
+
+
+
