@@ -46,14 +46,14 @@ DELETE FROM missions;
 
 SELECT * FROM branches br, (SELECT * FROM locations loc WHERE location_id = loc.location_id) s WHERE br.location_id = s.location_id
 
-ALTER TABLE locations ADD COLUMN temp_district TEXT;
-ALTER TABLE locations DROP COLUMN temp_district;
-ALTER TABLE locations DROP COLUMN country;
-ALTER TABLE locations DROP COLUMN city;
-ALTER TABLE locations DROP COLUMN district;
-ALTER TABLE locations ADD COLUMN city TEXT;
-ALTER TABLE locations ADD COLUMN district TEXT;
-ALTER TABLE locations ADD COLUMN country TEXT;
+-- ALTER TABLE locations ADD COLUMN temp_district TEXT;
+-- ALTER TABLE locations DROP COLUMN temp_district;
+-- ALTER TABLE locations DROP COLUMN country;
+-- ALTER TABLE locations DROP COLUMN city;
+-- ALTER TABLE locations DROP COLUMN district;
+-- ALTER TABLE locations ADD COLUMN city TEXT;
+-- ALTER TABLE locations ADD COLUMN district TEXT;
+-- ALTER TABLE locations ADD COLUMN country TEXT;
 
 
 --delete location column in branches table
